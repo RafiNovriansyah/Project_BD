@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background Shape -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/Blue" /> <!-- Latar belakang putih -->
+        </shape>
+    </item>
+
+    <!-- Outline (Stroke) -->
+    <item android:right="2dp" android:left="2dp" android:top="2dp" android:bottom="2dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/Red" /> <!-- Transparan -->
+            <stroke android:width="2dp" android:color="#6FA8DC" /> <!-- Garis tepi biru aga muda -->
+        </shape>
+    </item>
+</layer-list>
